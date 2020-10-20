@@ -6,9 +6,9 @@ Altyapı Kendi Botuma Aittir ve CodeWorld için bırakıyorum
 
 68 Komut var
 
-Düzenlemeniz Gereken Yerler Bot DAvet Linkleri vs.
+Düzenlemeniz Gereken Yerler Bot DAvet Linkleri vs. İsterseniz mahir.js yi kendinize göre yapabilirsiniz
 
-Sadece Eğlence yardım menüsü yok
+Sadece Eğlence yardım menüsü yok ve sayaç komutunu mainden ve komutlardan silin yoksa bot çalışmaz
 
 Botta Hata Yoktur Sorun Olursa Discord Hesabım = Blade#1205
 
