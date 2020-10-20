@@ -4,6 +4,8 @@ Altyapı Kendi Botuma Aittir ve CodeWorld için bırakıyorum
 
 Çalanın Canı Sağolsun
 
+68 Komut var
+
 Düzenlemeniz Gereken Yerler Bot DAvet Linkleri vs.
 
 Sadece Eğlence yardım menüsü yok
