@@ -1,8 +1,8 @@
 echo off
-title Astro Beta
+title Bot
 color a
 cls
 :a
-node mahir.js
+node bot.js
 goto a
 pause
