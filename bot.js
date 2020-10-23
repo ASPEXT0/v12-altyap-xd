@@ -110,6 +110,11 @@ client.unload = command => {
   });
 };
 //----------------------------------------------\\
+client.on("ready", () => {
+  console.log(`Bütün komutlar başarıyla yüklendi! Bot Aktif`);
+  client.user.setStatus("online");
+  client.user.setActivity('!yardım | !davet');
+})
 
 //----------------------------------------------\\
 client.yetkiler = message => {
