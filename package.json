@@ -2,9 +2,9 @@
   "name": "codeworld",
   "version": "0.0.1",
   "description": "CodeWorldV12",
-  "main": "mahir.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "node mahir.js"
+    "test": "node bot.js"
   },
   "author": "Mahir",
   "license": "ISC",
