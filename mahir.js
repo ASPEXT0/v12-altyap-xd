@@ -475,40 +475,7 @@ client.channels.cache.get(kanal).send(`Sunucuya ${member} Adlı Kullanıcı Kat�
 })
 //----------------------------------------------\\
 
-client.on("guildMemberAdd", (message,member) =>  {
 
-  let kanal = db.get(`skanal_${member.guild.id}`)
-
-  if(!kanal) return;
-
-  let sayı = db.get(`sayı_${member.guild.id}`)
-
-  if(!sayı) return;
-
-
-
-
-
-  member.guild.channels.cache.get(kanal).send(` Kullanıcı Katıldı! \`${sayı}\` Kişi Olmamıza \`${sayı - member.guild.memberCount}\` Kişi Kaldı! \`${member.guild.memberCount}\` Kişiyiz!`)
-
-
-   })
-
-//guildMemberRemove
-
-client.on("guildMemberRemove", (message,member) =>  {
-
-let kanal = db.get(`skanal_${member.guild.id}`)
-
-if(!kanal) return;
-
-let sayı = db.get(`sayı_${member.guild.id}`)
-
-if(!sayı) return;
-
-member.guild.channels.cache.get(kanal).send(` Kullanıcı Ayrıldı! \`${sayı}\` Kişi Olmamıza \`${sayı - member.guild.memberCount}\` Kişi Kaldı! \`${member.guild.memberCount}\` Kişiyiz!`)
-
-})
 //----------------------------------------------\\
 
 client.on("messageDelete", async (message) => {
